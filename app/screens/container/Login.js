@@ -57,6 +57,8 @@ export default class Login extends React.Component {
               onChangeText = {(text) => {
                   this.setState({password : text})
               }}
+              secureTextEntry = {true}
+              password={true}
               placeholder="Password" />
             </Item>
 

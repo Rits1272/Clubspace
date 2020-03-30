@@ -21,6 +21,7 @@ export default class InlineLabelExample extends Component {
            'author_Q' : username,
        })
        Alert.alert('Your Question is been added and waiting for an answer')
+       this.props.navigation.navigate('Home');
     }
 
   render() {
